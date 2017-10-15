@@ -17,7 +17,7 @@ body{
 	padding-top: 60px;
 }
 #top-background p{
-	color: #ffffff;
+	color: white;
 	font-size: 25px;
 }
 .link{
@@ -33,16 +33,33 @@ body{
 	font-size: 11px;
 	font-weight: bold;
 }
-.down-link{
-	background-color: #000002;
-}
-.install-link{
+.free-install{
 	height: 50px;
 	padding-top: 14px;
 }
-
+.download{
+	background-color: #000002;
+}
 .footer p{
 	margin-top: 20px;
 	color: #152364;
 	font-size: 10px;
+}
+
+
+.install-ios {
+	display: none;
+}
+
+.install-android {
+	display: none;
+}
+
+
+body.ios .install-ios {
+	display: inline-block;
+}
+
+body.android .install-android {
+	display: inline-block;
 }
