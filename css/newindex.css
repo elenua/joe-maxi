@@ -64,3 +64,24 @@ body.ios .install-ios {
 body.android .install-android {
 	display: inline-block;
 }
+
+/*Css for driver page*/
+.img-fluid{
+	 max-width: 100%;
+	 height: auto;
+}
+.orange{
+	min-height: -webkit-fill-available;
+	background-color: #ee9b31;
+	padding-top: 20px;
+}
+.text-driverpage{
+	margin-top: 5px;
+	color: #152364;
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+.appstore-link{
+	padding-left: 0px;
+	padding-right: 0px;
+}
